@@ -9,7 +9,7 @@ Within this Unity-based role-playing game, a player engages with various non-pla
 ## How to Run
 The repo contains source files for Unity. 
 - If you would like to run the project on your machine, please create a new Unity project. 
-- Then, copy the folder in this repo to overwrite the initial folder. 
+- Then, copy the folder in this repo to overwrite the initial folder with the same name. 
 - Open the project with Unity. In your project folder inspector, find the file `Assets/PlayerInteract.cs`
 - You will need to have a OpenAI API_KEY and setup the key as the following code. 
 
@@ -32,6 +32,7 @@ The repo contains source files for Unity.
         InitializeRole(); 
     }
 ```
+
 
 ### OpenAI C# Wrapper 
 - Note, the codes requires a OpenAI C# library that can be installed through [https://github.com/OkGoDoIt/OpenAI-API-dotnet](https://github.com/OkGoDoIt/OpenAI-API-dotnet)
